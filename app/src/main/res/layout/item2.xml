@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+  <CheckBox
+      android:layout_width="wrap_content"
+      android:padding="10dp"
+      android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:id="@+id/iv"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher"
+            android:layout_height="100dp"/>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/tv_name"
+                android:textSize="16sp"
+                android:text="sdssdsd"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="16sp"
+                android:text="sdsdsd"
+                android:layout_alignParentBottom="true"
+                android:padding="10dp"
+                android:id="@+id/tv_price"
+                android:textColor="@android:color/holo_red_light"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </LinearLayout>
